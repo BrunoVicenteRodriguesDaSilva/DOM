@@ -1,0 +1,35 @@
+body {
+    background-color: darkgoldenrod;
+    margin: 0px;
+}
+.title{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+.imgCrew {
+    width: 100px;
+    height: 100px;
+}
+.tableTrip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tableCrew {
+    border-collapse: collapse;
+    background-color: crimson;
+}
+.descriptionCrew {
+    padding-bottom: 20px;
+}
+td {
+    text-align: center;
+    text-transform: uppercase;
+    border: solid black 4px;
+    padding: 0px;
+}
+img {
+    border-bottom: solid black 4px;
+}
