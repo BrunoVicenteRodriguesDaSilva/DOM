@@ -74,3 +74,34 @@
     //classList.contains('') -- it checks if it contains the class;
     //classList.toggle('') -- it alternates the class between true or false;
 
+//createElement -- creates a new element on HTML;
+//append -- it adds the element to the HTML;
+
+    //const newBut = document.createElement('button') - creates a new button and stores it in a variable;
+    // newBut.innerText = "I'm a button" - puts a text in the button;
+    // document.body.appendChild(newBut) - adds the button to the bottom of the body;
+    //instead of 'body', you can use:
+    //      getElementsByClassName('className')[i]
+    //      getElementsByTagName('tagName')[i]
+    //      getElementById('id')
+
+    //variable.append('','') - can pass more than one element and can pass strings;
+    //variable.prepend('','') - can pass more than one element and adds the element to the beginning;
+    //var.after(var) - puts the element after the targetElement;
+    //var.before(var) - puts the element before the targetElement;
+    //insertAdjacentElement()
+            //beforebegin -- before the targetElement itself;
+            //afterbegin -- inside the targetElement, before its first child;
+            //beforeend -- inside the targetElement, after last child;
+            //afterend -- After the targetElement itself;
+
+            //Ex: 
+            //      const h1 = document.querySelector('h1')
+            //      const h2 = document.createElement('h2')
+            //      h2.innerText = 'balela'
+            //      h1.insertAdjacentElement('afterend',h2)
+
+//remove - it removes an element;
+
+    //parenteElement.removeChild(child) -- it removes the **child**;
+    //element.remove() -- it removes the element itself;
