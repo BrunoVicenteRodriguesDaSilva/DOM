@@ -32,3 +32,45 @@
 //querySelectorAll -- it works like querySelector, but returns a collection with all the elements that match;
     // document.querySelectorAll('p');
     //[p, p.descriptionCrew, p.descriptionCrew, p.descriptionCrew, p.descriptionCrew, p.descriptionCrew, p.descriptionCrew, p.descriptionCrew, p.descriptionCrew, p.descriptionCrew, p.descriptionCrew]
+
+        //to select a specific one -- document.querySelectorAll('p')[2]
+
+//innerText -- it returns all the text that it's been shown on the page;
+//textContent -- it returns all the text that it's written, even if it's hidden in the page for some reason, and how it's written;
+//innerHTML -- it returns HTML text, even showing where the anchor tags (<a></a>), and etc;
+
+    // All of them can be used to change the text of the element, and innerHTML can apply tags, like <b></b>, and etc;
+
+    //Ex: 
+    //  document.querySelector('p').innerHTML = 'batata assada'
+    // document.querySelector('p').textContent = 'batata assada'
+    //  document.querySelector('p').innerHTML = '<b>batata assada</b>'
+
+//getAttribute -- it get's an Attribute of an elemnt;
+    //Ex:
+
+    //document.querySelector("td").getAttribute('class')
+    //'imgCrew'
+
+//setAttribute -- it sets a new value to an Atrribute of an element;
+    //Ex:
+
+    //document.querySelector("td").setAttribute('class', 'banana')
+    //document.querySelector("td").getAttribute('class')
+    //'banana'
+
+//style -- it changes the style, doing inline changes;
+    //Ex:
+
+    //const nameCrew = document.querySelectorAll('td');
+    //for (let name of nameCrew)
+    //img.style.color='pink';
+    //'pink'
+
+//classList. -- it work with the class that the element contain
+
+    //classList.add('') -- adds a new class;
+    //classList.remove('') -- removes a class;
+    //classList.contains('') -- it checks if it contains the class;
+    //classList.toggle('') -- it alternates the class between true or false;
+
